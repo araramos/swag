@@ -1,0 +1,36 @@
+body {
+    background-color: silver
+    
+}
+
+.wrapper {
+    max-width: 1500px;
+    margin: auto;
+    width: 80%;
+
+    background-color: black;
+    color: white;
+    padding: 50px;
+}
+header {
+    display:flex;
+    justify-content: space-between;
+}
+header img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+img {
+    height: 350px;
+    width: auto;
+}
+
+.image-container {
+    width: calc(100% / 2 - 20px);
+}
+main {
+    text-align: center;
+    margin-top: 100px;
+
+}
